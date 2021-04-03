@@ -1,0 +1,29 @@
+/* .nav {
+	position: absolute;
+} */
+
+.background {
+	position: absolute;
+	width: 100vw;
+	height: 45vh;
+	background-color: #eee;
+
+	overflow: hidden;
+}
+
+/* #trapeze {
+	width: 0;
+	height: 150px;
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	border-left: 130px solid #F34A53;
+	margin: 40px auto 0;
+} */
+
+img {
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 50%;
+}
