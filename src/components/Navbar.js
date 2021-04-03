@@ -8,12 +8,18 @@ function Navbar() {
 			<div className="nav">
 				<div className="background"></div>
 				<header>
-					<span className="right_span">/</span>We ain't plastic
+					<span className="right_span">/</span>
+					We ain't plastic
 					<span className="left_span">/</span>
+					<div className="hamburger">
+						<i class="fas fa-recycle"></i>
+					</div>
 				</header>
-				<img src={gems} alt="" />
-				<h1>GEMS</h1>
-				<div className="bot"></div>
+				<div className="gem">
+					<img src={gems} alt="" />
+					<h1>GEMS</h1>
+					<div className="bot"></div>
+				</div>
 			</div>
 		</>
 	);
