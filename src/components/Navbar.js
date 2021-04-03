@@ -7,7 +7,13 @@ function Navbar() {
 		<>
 			<div className="nav">
 				<div className="background"></div>
+				<header>
+					<span className="right_span">/</span>We ain't plastic
+					<span className="left_span">/</span>
+				</header>
 				<img src={gems} alt="" />
+				<h1>GEMS</h1>
+				<div className="bot"></div>
 			</div>
 		</>
 	);

@@ -1,29 +1,50 @@
-/* .nav {
-	position: absolute;
-} */
-
-.background {
-	position: absolute;
-	width: 100vw;
-	height: 45vh;
-	background-color: #eee;
-
+.nav {
+	position: relative;
+	height: 250px;
 	overflow: hidden;
 }
 
-/* #trapeze {
-	width: 0;
-	height: 150px;
-	border-top: 75px solid transparent;
-	border-bottom: 75px solid transparent;
-	border-left: 130px solid #F34A53;
-	margin: 40px auto 0;
-} */
+.background {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(#eee, #eee);
+	transform: skewY(-6deg);
+	transform-origin: top left;
+	z-index: -1;
+}
+
+header {
+	margin-top: 5px;
+	font-size: 7px;
+	font-weight: 800;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+span {
+	display: block;
+}
+
+.right_span {
+	margin-left: 2px;
+	margin-bottom: -3px;
+}
+.left_span {
+	margin-left: -7px;
+	margin-top: -2px;
+}
 
 img {
 	position: fixed;
-	top: 10%;
+	top: 15%;
 	left: 50%;
 	transform: translateX(-50%);
-	height: 50%;
+	height: 30%;
 }
