@@ -1,0 +1,17 @@
+.main {
+	height: 400px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 0.3fr 1fr;
+	grid-template-areas:
+		"mark mark mark"
+		"text text text";
+}
+
+.main .markings p {
+	grid-area: mark;
+}
+
+.main .main-text p {
+	grid-area: text;
+}
