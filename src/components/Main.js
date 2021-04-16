@@ -9,13 +9,13 @@ function Main() {
 					<i className="far fa-gem"></i>Perfect Design
 				</p>
 				<p>
-					<i className="far fa-object-group"></i>UX Design
+					<i className="fas fa-water"></i>UX Design
 				</p>
 				<p>
 					<i className="fas fa-wind"></i>Prototyping
 				</p>
 				<p>
-					<i className="fas fa-layer-group"></i>Development
+					<i className="fas fa-mountain"></i>Development
 				</p>
 				<p>
 					<i className="fas fa-users"></i>Team Lead

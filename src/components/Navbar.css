@@ -67,8 +67,8 @@ header .mobile_menu {
 }
 
 .gem h1 {
-	margin-top: 0;
-	font-size: 25px;
+	margin-top: 10px;
+	font-size: 20px;
 	font-weight: 700;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -150,6 +150,7 @@ header .mobile_menu {
 		padding: 2rem;
 		width: 100%;
 		display: table;
+		overflow: hidden;
 	}
 
 	.nav-links:hover {
