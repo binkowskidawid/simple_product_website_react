@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
+import Work from "./components/Work";
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Router>
 				<Navbar />
 				<Main />
+				<Work />
 			</Router>
 		</div>
 	);
