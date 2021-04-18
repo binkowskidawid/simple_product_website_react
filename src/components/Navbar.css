@@ -17,6 +17,7 @@
 	background-image: linear-gradient(#eee, #eee);
 	transform: skewY(-6deg);
 	transform-origin: top left;
+	overflow: hidden;
 	z-index: -1;
 }
 
@@ -127,7 +128,7 @@ header .mobile_menu {
 		height: 100vh;
 		position: fixed;
 		top: -16px;
-		left: -100%;
+		left: -150%;
 		opacity: 1;
 		transition: all 0.5s ease;
 	}
@@ -165,12 +166,12 @@ header .mobile_menu {
 		border-radius: 0;
 	}
 
-	.navbar-logo {
+	/* .navbar-logo {
 		position: absolute;
 		top: 0;
 		left: 0;
 		transform: translate(25%, 50%);
-	}
+	} */
 
 	.nav-links-mobile {
 		display: block;

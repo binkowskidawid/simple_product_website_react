@@ -30,44 +30,46 @@ function Navbar() {
 					<h1>GEMS</h1>
 					<div className="bot"></div>
 				</div>
-				<ul className={click ? "nav-menu active" : "nav-menu"}>
-					<li className="nav-item">
-						<Link
-							to="/"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
-							Home
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link
-							to="/services"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
-							Services
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link
-							to="/products"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
-							Products
-						</Link>
-					</li>
-					<li className="nav-item">
-						<Link
-							to="/sign-up"
-							className="nav-links-mobile"
-							onClick={closeMobileMenu}
-						>
-							Sign Up
-						</Link>
-					</li>
-				</ul>
+				<nav>
+					<ul className={click ? "nav-menu active" : "nav-menu"}>
+						<li className="nav-item">
+							<Link
+								to="/"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Home
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								to="/services"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Services
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								to="/products"
+								className="nav-links"
+								onClick={closeMobileMenu}
+							>
+								Products
+							</Link>
+						</li>
+						<li className="nav-item">
+							<Link
+								to="/sign-up"
+								className="nav-links-mobile"
+								onClick={closeMobileMenu}
+							>
+								Sign Up
+							</Link>
+						</li>
+					</ul>
+				</nav>
 			</div>
 		</>
 	);

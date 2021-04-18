@@ -26,6 +26,7 @@
 }
 
 .main-text {
+	box-sizing: border-box;
 	margin: 0 5px;
 	display: flex;
 	flex-direction: column;

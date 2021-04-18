@@ -1,6 +1,6 @@
 .work_section {
 	height: 250px;
-	width: 100%;
+	/* width: 100%; */
 	position: relative;
 }
 
@@ -15,6 +15,7 @@
 	background-image: linear-gradient(#eee, #eee);
 	transform: skewY(-6deg);
 	transform-origin: top left;
+	overflow: hidden;
 	z-index: -1;
 }
 
