@@ -4,8 +4,8 @@ import "./App.css";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
-import Products from "./pages/Products.js";
-import Services from "./pages/Services.js";
+import Information from "./pages/Information.js";
+import CarbonEmissions from "./pages/CarbonEmissions.js";
 import SignUp from "./pages/SignUp.js";
 
 function App() {
@@ -13,14 +13,11 @@ function App() {
 		<Router>
 			<div className="App">
 				<Navbar />
-				<Route path="/products" component={Products} />
-				<Route path="/services" component={Services} />
+				<Route path="/information" component={Information} />
+				<Route path="/carbon-emissions" component={CarbonEmissions} />
 				<Route path="/sign-up" component={SignUp} />
-				<Route exact path="/" component={Main} />
-				<Route exact path="/" component={Work} />
-
-				{/* <Main />
-				<Work /> */}
+				<Route path="/" exact component={Main} />
+				<Route path="/" exact component={Work} />
 			</div>
 		</Router>
 	);
