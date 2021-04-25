@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Work from "./components/Work";
 import Information from "./pages/Information.js";
 import CarbonEmissions from "./pages/CarbonEmissions.js";
+import CarbonDetail from "./pages/CarbonDetail.js";
 import SignUp from "./pages/SignUp.js";
 
 function App() {
@@ -14,7 +15,12 @@ function App() {
 			<div className="App">
 				<Navbar />
 				<Route path="/information" component={Information} />
-				<Route path="/carbon-emissions" component={CarbonEmissions} />
+				<Route
+					path="/carbon-emissions"
+					exact
+					component={CarbonEmissions}
+				/>
+				<Route path="/carbon-emissions/:id" component={CarbonDetail} />
 				<Route path="/sign-up" component={SignUp} />
 				<Route path="/" exact component={Main} />
 				<Route path="/" exact component={Work} />

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./CarbonEmissions.css";
+import { Link } from "react-router-dom";
 
 function CarbonEmissions() {
 	useEffect(() => {
@@ -23,7 +24,11 @@ function CarbonEmissions() {
 			<div className="regions">
 				{regions.map((region) => (
 					<div className="information">
-						<h2 key={region.regionid}>{region.shortname}</h2>
+						<h2 key={region.regionid}>
+							<Link to={`/carbon-emissions/${region.regionid}`}>
+								{region.shortname}
+							</Link>
+						</h2>
 						<p key={region.intensity.forecast}>
 							{region.intensity.index}
 						</p>
