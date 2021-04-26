@@ -19,12 +19,15 @@ function CarbonDetail({ match }) {
 		setDetails(details.data[0].data[0]);
 	};
 
-	const mix = details.generationmix.map((detail) => (
-		<div className="mix">
-			<p>fuel: {detail.fuel}</p>
-			<p>perc: {detail.perc}</p>
-		</div>
-	));
+	let mix;
+	if (details.generationmix) {
+		mix = details.generationmix.map((detail) => (
+			<div className="mix">
+				<p key={detail.fuel}>fuel: {detail.fuel}</p>
+				<p key={detail.perc}>perc: {detail.perc}</p>
+			</div>
+		));
+	}
 
 	return (
 		<div className="carbon_emissions_detail">
