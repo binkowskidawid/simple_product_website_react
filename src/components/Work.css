@@ -43,3 +43,22 @@
 	height: 2px;
 	background-color: #000;
 }
+
+.work_example_elements {
+	position: absolute;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.work_example_elements li {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	list-style: none;
+}
+
+.work_example_elements li a {
+	display: block;
+}
