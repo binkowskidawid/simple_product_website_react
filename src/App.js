@@ -4,6 +4,7 @@ import "./App.css";
 import Main from "./components/Main";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import Workflow from "./components/Workflow";
 import Information from "./pages/Information.js";
 import CarbonEmissions from "./pages/CarbonEmissions.js";
 import CarbonDetail from "./pages/CarbonDetail.js";
@@ -24,6 +25,7 @@ function App() {
 				<Route path="/sign-up" component={SignUp} />
 				<Route path="/" exact component={Main} />
 				<Route path="/" exact component={Work} />
+				<Route path="/" exact component={Workflow} />
 			</div>
 		</Router>
 	);

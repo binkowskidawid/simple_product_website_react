@@ -26,7 +26,7 @@ function Navbar() {
 					</div>
 				</header>
 				<div className="gem">
-					<img src={gems} alt="" />
+					<img src={gems} alt="gems" />
 					<h1>GEMS</h1>
 					<div className="bot"></div>
 				</div>
