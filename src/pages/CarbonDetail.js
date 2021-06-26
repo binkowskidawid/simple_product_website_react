@@ -29,10 +29,19 @@ function CarbonDetail({ match }) {
 		));
 	}
 
+	const reg = /[A-Z]/g;
+
+	// async function rep(str) {
+	// 	return str.replace(reg, " ")
+	// }
+
+	let from = details.from;
+	// .replace(reg, " ");
+
 	return (
 		<div className="carbon_emissions_detail">
 			<h1>
-				from: <span>{details.from}</span>
+				from: <span>{from}</span>
 			</h1>
 			<div className="generation">{mix}</div>
 		</div>

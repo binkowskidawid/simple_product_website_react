@@ -1,0 +1,16 @@
+.footer {
+	position: relative;
+	top: 160px;
+	left: 0;
+	display: block;
+	height: 40px;
+	background-color: #eee;
+}
+
+.author {
+	text-align: center;
+	font-size: 12px;
+	line-height: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
