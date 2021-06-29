@@ -38,7 +38,7 @@
 	text-transform: uppercase;
 }
 
-.work_section.text .bot {
+.work_section .text .bot {
 	width: 35px;
 	height: 2px;
 	background-color: #000;
@@ -73,4 +73,17 @@
 	font-size: 10px;
 	color: #84ccc2;
 	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+	.work_section .background {
+		top: 8%;
+	}
+
+	.work_example_elements li {
+		font-size: 15px;
+	}
+	.work_example_elements li a {
+		font-size: 14px;
+	}
 }

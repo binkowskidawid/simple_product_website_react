@@ -23,8 +23,12 @@ function CarbonDetail({ match }) {
 	if (details.generationmix) {
 		mix = details.generationmix.map((detail) => (
 			<div className="mix">
-				<p key={detail.fuel}>fuel: {detail.fuel}</p>
-				<p key={detail.perc}>perc: {detail.perc}</p>
+				<p key={detail.fuel}>
+					fuel: <span>{detail.fuel}</span>
+				</p>
+				<p key={detail.perc}>
+					perc: <span>{detail.perc}</span>
+				</p>
 			</div>
 		));
 	}

@@ -15,3 +15,9 @@
 	display: flex;
 	justify-content: space-around;
 }
+
+.mix p span {
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
