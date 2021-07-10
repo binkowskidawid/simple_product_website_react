@@ -16,3 +16,13 @@
 	margin: 0;
 	padding: 0;
 }
+
+.information h2 a {
+	text-decoration: none;
+	color: #333;
+	transition: 0.3s;
+}
+
+.information h2 a:hover {
+	color: #84ccc2;
+}
